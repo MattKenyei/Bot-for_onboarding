@@ -8,7 +8,7 @@ from aiogram import executor
 import sqlite3
 import asyncio
 
-TOKEN = '6060048815:AAFqhHaBsGutb1bS7girLJlN4rBmp6nl0fo'
+TOKEN = 'token_here' #change it
 bot = Bot(TOKEN)
 dp = Dispatcher(bot, storage=MemoryStorage())
 class Registration(StatesGroup):
